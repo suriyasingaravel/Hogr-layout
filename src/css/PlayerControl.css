@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 10px;
+  }
+  
+  .box svg {
+    color: #b3b3b3;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .box svg:hover {
+    color: white;
+  }
+  
+  .box .state svg {
+    color: white;
+  }
+  
+  .box .previous,
+  .box .next,
+  .box .state {
+    font-size: 2rem;
+  }
+  

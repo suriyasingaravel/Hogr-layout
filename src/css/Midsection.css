@@ -1,0 +1,66 @@
+.direction-container {
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #000; /* Change color as needed */
+  margin: 0 10px; /* Adjust spacing */
+}
+
+.arrow:before {
+  content: "◆"; /* Rhombus character */
+  font-size: 24px; /* Adjust size as needed */
+  color: #000; /* Change color as needed */
+  position: absolute;
+  top: -25px; /* Adjust alignment */
+  left: 0;
+}
+
+
+hr.dashed {
+  border: none;
+  margin-top: 10px;
+  border-top: 1px dashed #999; /* Adjust color and style as needed */
+  height: 1px; /* Adjust thickness as needed */
+  width: 100%; /* Adjust width as needed */
+}
+
+.midsection-container {
+  padding: 20px;
+  width: 90%;
+  margin: auto;
+  border-radius: 30px;
+  background-color: rgb(241, 238, 238);
+  color: black;
+  margin-top: -10px;
+  position: relative;
+  z-index: 2;
+}
+
+.midsection-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.midsection-distance {
+  display: flex;
+  gap: 5px;
+}
+
+.midsection-button {
+  display: flex;
+  margin-top: 10px;
+}
+
+.dashed {
+  border: none;
+  border-top: 1px dashed #999;
+  height: 1px;
+  width: 100%;
+}
